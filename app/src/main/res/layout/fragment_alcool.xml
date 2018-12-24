@@ -1,0 +1,38 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.whatsapp.magazine.paulooliveira.usaralcoolougasolina.fragment.AlcoolFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Álcool"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="14dp"
+        android:text="Etanol, álcool ou álcool etílico são palavras que se referem à mesma substância: um composto orgânico de fórmula C2H6O. Tanto o álcool combustível, como bebidas alcoólicas, produtos de limpeza, tintas e qualquer outro produto que contenha o composto utiliza o mesmo álcool, obtido por fermentação do açúcar ou síntese em laboratório.  Em sua aplicação como combustível, o etanol está presente de forma pura ou misturado à gasolina. O etanol comum vendido nos postos é o álcool etílico hidratado, uma mistura com cerca de 96% de etanol e o restante de água. Já o etanol misturado à gasolina é o álcool anidro, um tipo de etanol que possui pelo menos 99,6% de álcool puro. Na gasolina brasileira a proporção de etanol misturado ao combustível varia de 20% e 25%, de acordo com determinação do governo.  Por ser obtido de vegetais, o etanol é considerado um combustível renovável, ou seja, não se esgota. É também um combustível sustentável, pois grande parte do gás carbônico lançado na atmosfera em sua produção é absorvido pela própria cana-de-açúcar durante a fotossíntese. É calculado que o etanol reduz em 89% a emissão de gases de efeito estufa se comparado à gasolina. Além disso, ele lança menos gases poluentes em comparação com os combustíveis derivados do petróleo, o que o torna um dos mais viáveis ecologicamente."
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+</android.support.constraint.ConstraintLayout>

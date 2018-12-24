@@ -1,0 +1,38 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.whatsapp.magazine.paulooliveira.usaralcoolougasolina.fragment.GasolinaFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Gasolina"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="51dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:text='A gasolina é um produto combustível derivado intermediário do petróleo, na faixa de hidrocarbonetos de 5 a 20 átomos de carbono.     Uma das propriedades mais importantes da gasolina é a octanagem. A octanagem mede a capacidade da gasolina de resistir à detonação, ou sua capacidade de resistir ás exigências do motor sem entrar em auto-ignição antes do momento programado. A detonação (conhecida como "batida de pino") leva à perda de potência e pode causar sérios danos ao motor. Existe um índice mínimo permitido de octanagem para a gasolina comercializada no Brasil, que varia conforme seu tipo.      O álcool etílico, umas das substâncias adicionadas à gasolina tem vital papel na sua combustão, pois sua função é aumentar a octanagem em virtude do seu baixo poder calorífico. Além disso, o fato propicia uma redução na taxa de produção de CO. A porcentagem de álcool é regulamentada por Lei, e recentemente foi estabelecido um novo padrão que é de 18 a 24%. Se por um lado existe vantagens, existem as desvantagens também, como maior propensão à corrosão, maior regularidade nas manutenções do carro, aumento do consumo e aumento de produção de óxidos de nitrogênio.'
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+</android.support.constraint.ConstraintLayout>

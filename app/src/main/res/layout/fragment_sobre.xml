@@ -1,0 +1,40 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.whatsapp.magazine.paulooliveira.usaralcoolougasolina.fragment.SobreFragment"
+    tools:layout_editor_absoluteY="25dp">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Sobre o aplicativo"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="16dp"
+        android:text="Os carros flex, aqueles que têm motor bicombustível, podem ser abastecidos tanto com gasolina como com álcool etanol. Com mais de 10 anos de mercado no Brasil – o primeiro flex brasileiro foi um Volkswagen Gol 1.6 lançado em 2003 -, os carros bicombustível caíram no gosto da população, mas continuam cercados por uma dúvida: é melhor abastecer com álcool ou gasolina? Com as constantes variações nos preços dos combústiveis fica cada vez mais difícil fazer a escolha entre etanol ou gasolina na hora de abastecer, o aplicativo Usar Álcool ou Gasolina - foi desenvolvido para ajudar você nessa escolha calculando a opção mais econômica, fazendo o calculo em que é considerado que o etanol rende 70% da gasolina. Apesar do álcool ser mais barato do que a gasolina, seu consumo é um pouco maior. O rendimento médio de um carro com motor a álcool é 30% menor do que de um carro com motor a gasolina.  Tendo em vista essa diferença de consumo, é mais vantajoso abastecer com álcool quando o litro dele custar menos do que 70% do litro da gasolina. Então a forma mais simples de decidir qual combustível usar é multiplicando o valor do litro da gasolina por 0,7.  Se o resultado der mais do que o valor do litro do álcool, vale mais a pena abastecer com álcool; se der menos, escolha gasolina."
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.277" />
+
+</android.support.constraint.ConstraintLayout>
